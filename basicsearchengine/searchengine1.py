@@ -18,7 +18,7 @@ def compute_ranks(graph):
         ranks = newranks
     return ranks
 
-
+# test data 
 cache = {
     'http://udacity.com/cs101x/urank/index.html': """<html>
         <body>
@@ -36,12 +36,6 @@ cache = {
         and <a href="http://udacity.com/cs101x/urank/zinc.html">Zinc Chef</a>.
         </body>
         </html>
-        
-        
-        
-        
-        
-        
         """,
     'http://udacity.com/cs101x/urank/zinc.html': """<html>
         <body>
@@ -57,11 +51,6 @@ cache = {
         </body>
         </html>
         
-        
-        
-        
-        
-        
         """,
     'http://udacity.com/cs101x/urank/nickel.html': """<html>
         <body>
@@ -74,12 +63,6 @@ cache = {
         
         </body>
         </html>
-        
-        
-        
-        
-        
-        
         """,
     'http://udacity.com/cs101x/urank/kathleen.html': """<html>
         <body>
@@ -130,10 +113,7 @@ cache = {
         
         </body>
         </html>
-        
-        
-        
-        
+    
         """,
 }
 
