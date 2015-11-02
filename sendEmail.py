@@ -1,5 +1,6 @@
 import smtplib
 
+
 # Create stmp connection obj
 # SMTP Servers: Gmail smtp.gmail.com; outlook/hotmail: smtp-mail.outlook.com; 
 # Yahoo: smtp.mail.yahoo.com; port is usually 587
